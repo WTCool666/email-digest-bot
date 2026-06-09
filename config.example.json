@@ -1,0 +1,34 @@
+{
+  "_备注_AI模型配置": {
+    "智谱GLM": { "base_url": "https://open.bigmodel.cn/api/paas", "model": "glm-4-flash" },
+    "DeepSeek": { "base_url": "https://api.deepseek.com", "model": "deepseek-chat" },
+    "通义千问": { "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", "model": "qwen-turbo" },
+    "Kimi(月之暗面)": { "base_url": "https://api.moonshot.cn/v1", "model": "moonshot-v1-8k" },
+    "OpenAI": { "base_url": "https://api.openai.com/v1", "model": "gpt-4o-mini" },
+    "硅基流动(SiliconFlow)": { "base_url": "https://api.siliconflow.cn/v1", "model": "Qwen/Qwen2.5-7B-Instruct" }
+  },
+  "_备注_常用邮箱IMAP": {
+    "阿里企业邮": { "imap_server": "imap.qiye.aliyun.com", "imap_port": 993 },
+    "腾讯企业邮": { "imap_server": "imap.exmail.qq.com", "imap_port": 993 },
+    "网易企业邮": { "imap_server": "imap.qiye.163.com", "imap_port": 993 },
+    "Outlook/Office365": { "imap_server": "outlook.office365.com", "imap_port": 993 },
+    "Gmail": { "imap_server": "imap.gmail.com", "imap_port": 993 },
+    "QQ邮箱": { "imap_server": "imap.qq.com", "imap_port": 993 },
+    "163邮箱": { "imap_server": "imap.163.com", "imap_port": 993 }
+  },
+  "email": {
+    "imap_server": "imap.qiye.aliyun.com",
+    "imap_port": 993,
+    "username": "你的邮箱地址",
+    "password": "你的邮箱授权码（不是登录密码）"
+  },
+  "deepseek": {
+    "api_key": "你的API Key",
+    "model": "glm-4-flash",
+    "base_url": "https://open.bigmodel.cn/api/paas"
+  },
+  "dingtalk": {
+    "webhook_url": "https://oapi.dingtalk.com/robot/send?access_token=你的token",
+    "secret": "SEC开头的加签密钥"
+  }
+}
