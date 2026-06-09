@@ -1,6 +1,6 @@
 # email-digest-bot
 
-![view](https://github.com/WTCool666/claude-code-html-exporter/blob/master/res/1.png)
+![view](https://github.com/WTCool666/email-digest-bot/blob/main/res/2.png)
 
 每日自动读取公司邮箱，AI 生成摘要，推送到钉钉群。
 
